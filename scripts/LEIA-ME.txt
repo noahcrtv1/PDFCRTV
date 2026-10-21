@@ -1,0 +1,53 @@
+PDFCRTV 1.1.0 — criar, ler e anotar PDFs no Mac
+
+INSTALAR
+1. Arraste PDFCRTV para Aplicativos.
+2. Se o macOS bloquear a abertura, use Ajustes do Sistema > Privacidade e Segurança > Abrir Mesmo Assim.
+3. Para abrir PDFs sempre nele: Obter Informações em um PDF > Abrir com: PDFCRTV > Alterar Tudo.
+Requer macOS 26 ou mais novo. Pacote para Apple Silicon. Assinatura local, sem notarização Apple.
+
+CRIAR PDF — Arquivo > Criar PDF (Cmd+N)
+- Arquivo único: imagens, PDF, TXT, RTF e HTML.
+- Vários arquivos: adicione, reordene e combine arquivos de formatos diferentes.
+- Office: DOC/DOCX, XLS/XLSX, PPT/PPTX e OpenDocument, com LibreOffice instalado.
+  O PDFCRTV procura /Applications/LibreOffice.app. Também é possível escolher o aplicativo
+  em Configurações de página > Selecionar LibreOffice. Fontes e layout podem variar.
+  Download gratuito: https://www.libreoffice.org/download/download-libreoffice/
+- Captura de tela: escolha uma área ou janela. Esc cancela. Pode exigir permissão do macOS.
+- Scanner: scanners compatíveis com Captura de Imagem do macOS, conectados ao Mac.
+- Página da Web: endereço público ou arquivo HTML. Texto selecionável e paginação.
+  Conteúdo que depende de login, rolagem ou recursos dinâmicos pode ficar incompleto.
+  Elementos gráficos grandes podem ser divididos entre páginas.
+- Área de transferência: texto, imagem ou conteúdo PDF copiado de outro aplicativo.
+- Página em branco: A4, Carta ou A5, retrato/paisagem, até 500 páginas.
+- Modelos: pauta de reunião, relatório, anotações e papel timbrado.
+Escolha a origem, clique em Preparar PDF, confira a prévia e use Salvar e abrir.
+
+OCR PESQUISÁVEL
+Ative Tornar o texto pesquisável na criação ou use Ferramentas > Documento >
+Salvar cópia pesquisável (OCR) em um PDF aberto. Reconhecimento local em português,
+inglês e espanhol. O texto invisível permite busca e seleção. Revise o resultado.
+Páginas que já têm texto selecionável são mantidas sem novo reconhecimento; isso
+inclui páginas com uma mistura de texto e imagens. O original não é sobrescrito
+automaticamente. Uma cópia regravada não preserva a validade de assinaturas digitais.
+
+ESPAÇOS LOCAIS
+Crie ou abra uma pasta que reúne cópias de arquivos, links e notas. Os documentos
+adicionados são copiados para a subpasta Arquivos. Remover um item da lista não
+apaga sua cópia. Para transferir o espaço, copie a pasta inteira.
+Não há sincronização, colaboração em nuvem nem assistente de IA.
+
+LEITURA E EDIÇÃO
+- Miniaturas, sumário, busca, zoom, impressão e abertura de PDFs com senha.
+- Marca-texto, sublinhado, riscado, caixas de texto, notas, desenho e retângulos.
+- Duplo clique edita o texto das anotações; botão direito remove; Cmd+Z desfaz.
+- Assinatura desenhada ou importada. Não é assinatura digital com certificado.
+- Preenchimento de campos de formulário existentes compatíveis com PDFKit.
+- Reordenar, girar, excluir, extrair, inserir e dividir páginas.
+- Exportar cópia comprimida, cópia com senha, PNG e texto.
+
+LIMITES DESTA VERSÃO
+A edição altera anotações; ainda não reescreve o texto original do PDF.
+Retângulos e marcações não apagam informações permanentemente.
+Edição avançada, tarja segura, assinatura com certificado e exportação para Office
+não fazem parte desta versão.
